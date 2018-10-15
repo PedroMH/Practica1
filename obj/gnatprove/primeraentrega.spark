@@ -1,0 +1,967 @@
+{
+  "spark": [
+    {
+      "name": "primeraentrega",
+      "sloc": [
+        {
+          "file": "primeraentrega.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "primeraentrega.mayoresN",
+      "sloc": [
+        {
+          "file": "primeraentrega.ads",
+          "line": 8
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "primeraentrega.existePrimo",
+      "sloc": [
+        {
+          "file": "primeraentrega.ads",
+          "line": 21
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "primeraentrega.primoPequeno",
+      "sloc": [
+        {
+          "file": "primeraentrega.ads",
+          "line": 12
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "primeraentrega.sumaContenido",
+      "sloc": [
+        {
+          "file": "primeraentrega.ads",
+          "line": 17
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "primeraentrega.adb",
+      "line": 21,
+      "col": 16,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.primoPequeno",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "primeraentrega__flow__46.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 29,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.primoPequeno",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "primeraentrega__flow__47.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 8,
+      "col": 24,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.mayoresN",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "primeraentrega__flow__71.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 12,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.mayoresN",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "primeraentrega__flow__72.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 38,
+      "col": 20,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.sumaContenido",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 17
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "primeraentrega__flow__118.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 40,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.sumaContenido",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 17
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "primeraentrega__flow__119.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "primeraentrega.adb",
+      "line": 8,
+      "col": 35,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "primeraentrega.mayoresN",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 41,
+              "time": 5.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 41,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "primeraentrega.adb",
+      "check_line": 8,
+      "check_col": 35,
+      "tracefile": "primeraentrega.adb_8_35_overflow_check.trace",
+      "cntexmp": {
+        "primeraentrega.adb": {
+          "4": [
+            {
+              "name": "mayores",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "6": [
+            {
+              "name": "J",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "mayores",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "8": [
+            {
+              "name": "mayores",
+              "value": "2147483647",
+              "kind": "variable"
+            }
+          ]
+        },
+        "primeraentrega.ads": {
+          "8": [
+            {
+              "name": "n",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "vector",
+              "value": "(others => 1)",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 0,
+      "how_proved": "prover"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 20,
+      "col": 23,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.primoPequeno",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "primeraentrega.adb",
+      "check_line": 20,
+      "check_col": 23,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "primeraentrega.ads",
+      "line": 19,
+      "col": 44,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "primeraentrega.sumaContenido",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 17
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 56,
+              "time": 3.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 56,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 67,
+                    "time": 3.00000000000000E-02
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "primeraentrega.ads",
+      "check_line": 19,
+      "check_col": 14,
+      "tracefile": "primeraentrega.ads_19_14_postcondition.trace",
+      "cntexmp": {
+        "primeraentrega.adb": {
+          "34": [
+            {
+              "name": "resultado",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "37": [
+            {
+              "name": "J",
+              "value": "50",
+              "kind": "variable"
+            },
+            {
+              "name": "resultado",
+              "value": "1",
+              "kind": "variable"
+            }
+          ],
+          "38": [
+            {
+              "name": "resultado",
+              "value": "1",
+              "kind": "variable"
+            }
+          ],
+          "40": [
+            {
+              "name": "sumaContenido'Result",
+              "value": "1",
+              "kind": "variable"
+            }
+          ]
+        },
+        "primeraentrega.ads": {
+          "17": [
+            {
+              "name": "vector",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ],
+          "19": [
+            {
+              "name": "X",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "sumaContenido'Result",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "vector",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 50,
+      "col": 23,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "primeraentrega.existePrimo",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 21
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "primeraentrega.adb",
+      "check_line": 50,
+      "check_col": 23,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "primeraentrega.ads",
+      "line": 14,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "primeraentrega.primoPequeno",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 12
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 156,
+              "time": 3.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 214,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 160,
+                    "time": 3.00000000000000E-02
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 61,
+                    "time": 2.00000000000000E-02
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 154,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "primeraentrega.ads",
+      "check_line": 14,
+      "check_col": 14,
+      "tracefile": "primeraentrega.ads_14_14_postcondition.trace",
+      "cntexmp": {
+        "primeraentrega.adb": {
+          "16": [
+            {
+              "name": "numeroPrimo",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "18": [
+            {
+              "name": "I",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "J",
+              "value": "50",
+              "kind": "variable"
+            },
+            {
+              "name": "numeroPrimo",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "19": [
+            {
+              "name": "I",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "numeroPrimo",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "29": [
+            {
+              "name": "primoPequeno'Result",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "primeraentrega.ads": {
+          "12": [
+            {
+              "name": "vector",
+              "value": "(others => 1)",
+              "kind": "variable"
+            }
+          ],
+          "14": [
+            {
+              "name": "primoPequeno'Result",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "vector",
+              "value": "(others => 1)",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 2,
+      "how_proved": "prover"
+    },
+    {
+      "file": "primeraentrega.adb",
+      "line": 38,
+      "col": 33,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "primeraentrega.sumaContenido",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 17
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 45,
+              "time": 0
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 45,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "primeraentrega.adb",
+      "check_line": 38,
+      "check_col": 33,
+      "tracefile": "primeraentrega.adb_38_33_overflow_check.trace",
+      "cntexmp": {
+        "primeraentrega.adb": {
+          "34": [
+            {
+              "name": "resultado",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "37": [
+            {
+              "name": "J",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "resultado",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "38": [
+            {
+              "name": "J",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "resultado",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "vector",
+              "value": "(others => 1)",
+              "kind": "variable"
+            }
+          ]
+        },
+        "primeraentrega.ads": {
+          "17": [
+            {
+              "name": "vector",
+              "value": "(others => 1)",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 3,
+      "how_proved": "prover"
+    },
+    {
+      "file": "primeraentrega.ads",
+      "line": 10,
+      "col": 19,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "primeraentrega.mayoresN",
+        "sloc": [
+          {
+            "file": "primeraentrega.ads",
+            "line": 8
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 49,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (other)",
+              "steps": 50,
+              "time": 2.00000000000000E-02
+            },
+            "CVC4_CE": {
+              "result": "Unknown (other)",
+              "steps": 49,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 41,
+                    "time": 2.00000000000000E-02
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                  "CVC4_CE": {
+                    "result": "Unknown (other)",
+                    "steps": 41,
+                    "time": 2.00000000000000E-02
+                  }
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "primeraentrega.ads",
+      "check_line": 10,
+      "check_col": 19,
+      "tracefile": "primeraentrega.ads_10_19_postcondition.trace",
+      "cntexmp": {
+        "primeraentrega.adb": {
+          "4": [
+            {
+              "name": "mayores",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "6": [
+            {
+              "name": "J",
+              "value": "50",
+              "kind": "variable"
+            },
+            {
+              "name": "mayores",
+              "value": "-1",
+              "kind": "variable"
+            }
+          ],
+          "12": [
+            {
+              "name": "mayoresN'Result",
+              "value": "-1",
+              "kind": "variable"
+            }
+          ]
+        },
+        "primeraentrega.ads": {
+          "8": [
+            {
+              "name": "n",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "vector",
+              "value": "(others => 0)",
+              "kind": "variable"
+            }
+          ],
+          "10": [
+            {
+              "name": "mayoresN'Result",
+              "value": "-1",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 4,
+      "how_proved": "prover"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "primeraentrega",
+          "sloc": [
+            {
+              "file": "primeraentrega.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "primeraentrega.existePrimo",
+          "sloc": [
+            {
+              "file": "primeraentrega.ads",
+              "line": 21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "primeraentrega.existePrimo",
+          "sloc": [
+            {
+              "file": "primeraentrega.ads",
+              "line": 21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "primeraentrega.existePrimo",
+            "sloc": [
+              {
+                "file": "primeraentrega.ads",
+                "line": 21
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "primeraentrega.primoPequeno",
+          "sloc": [
+            {
+              "file": "primeraentrega.ads",
+              "line": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "primeraentrega.sumaContenido",
+          "sloc": [
+            {
+              "file": "primeraentrega.ads",
+              "line": 17
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "primeraentrega.mayoresN",
+          "sloc": [
+            {
+              "file": "primeraentrega.ads",
+              "line": 8
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 1.98020003153943E-04,
+    "globals (basic)": 9.47840017033741E-05,
+    "globals/properties (advanced)": 4.02075995225459E-04,
+    "flow analysis": 1.55762406066060E-02,
+    "codepeer results": 3.31999990521581E-06,
+    "init_why_sections": 1.61796997417696E-04,
+    "translation of standard": 2.87732202559710E-03,
+    "translation of compilation unit": 1.21404780074954E-02,
+    "proof": 5.56803226470947E+00
+  }
+}

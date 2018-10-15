@@ -1,0 +1,34 @@
+Summary of SPARK analysis
+=========================
+
+-------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   Interval   CodePeer     Provers   Justified   Unproved
+-------------------------------------------------------------------------------------------------------
+Data Dependencies                 .          .          .          .           .           .          .
+Flow Dependencies                 .          .          .          .           .           .          .
+Initialization                    6          6          .          .           .           .          .
+Non-Aliasing                      .          .          .          .           .           .          .
+Run-time Checks                   4          .          .          .    2 (CVC4)           .          2
+Assertions                        .          .          .          .           .           .          .
+Functional Contracts              3          .          .          .           .           .          3
+LSP Verification                  .          .          .          .           .           .          .
+-------------------------------------------------------------------------------------------------------
+Total                            13    6 (46%)          .          .     2 (15%)           .    5 (38%)
+
+
+Analyzed 4 units
+in unit assertions, 0 subprograms and packages out of 4 analyzed
+  Assertions.Assert_False at assertions.ads:7 skipped
+  Assertions.Assert_False at assertions.ads:13 skipped
+  Assertions.Assert_True at assertions.ads:4 skipped
+  Assertions.Assert_True at assertions.ads:10 skipped
+in unit primeraentrega, 5 subprograms and packages out of 5 analyzed
+  primeraentrega at primeraentrega.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  primeraentrega.existePrimo at primeraentrega.ads:21 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  primeraentrega.mayoresN at primeraentrega.ads:8 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 0 checks out of 2 proved
+  primeraentrega.primoPequeno at primeraentrega.ads:12 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 1 checks out of 2 proved
+  primeraentrega.sumaContenido at primeraentrega.ads:17 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 0 checks out of 2 proved
+in unit run_test, 0 subprograms and packages out of 1 analyzed
+  Run_Test at run_test.adb:3 skipped
+in unit test_primeraentrega, 0 subprograms and packages out of 1 analyzed
+  test_primeraentrega at test_primeraentrega.adb:5 skipped

@@ -1,0 +1,64 @@
+V "GNAT Lib v2018"
+M P W=b
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U test_primeraentrega%b	test_primeraentrega.adb	69f61700 OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W assertions%s		assertions.adb		assertions.ali
+W primeraentrega%s	primeraentrega.adb	primeraentrega.ali
+Z system%s		system.ads		system.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D assertions.ads	20181011114348 0573aace assertions%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D primeraentrega.ads	20181011112852 3c9251bb primeraentrega%s
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D test_primeraentrega.adb  20181011114434 d80a5f2f test_primeraentrega%b
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r23
+X 4 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r27
+263U14*Put_Line 14|16s10 18s10 43s4
+X 5 assertions.ads
+1K9*Assertions 15e15 14|2w6 2r23
+2X4*Assertion_Error 14|15r12
+10U14*Assert_True 14|12s7 13s7
+X 8 primeraentrega.ads
+1K9*primeraentrega 25e19 14|3w6 3r31
+3I9*My_Int<short_integer> 14|10r11
+6A9*My_Int_Array(3I9)<4I9> 14|9r15
+8V13*mayoresN{integer} 14|12s20 13s20
+X 14 test_primeraentrega.adb
+5U11*test_primeraentrega 5b11 46l8 46t27
+7U14 Test_1 19l8 19t14 44s4
+8a7 Msg{string} 12r45 13r45 16r20 18r20
+9a7 Table{8|6A9} 12r30 13r30
+10i7 N{8|3I9} 12r37
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS test_primeraentrega__test_1 0
+GG EK_GLOBALS test_primeraentrega__test_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__mayoresn local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_primeraentrega 0
+GG EK_GLOBALS test_primeraentrega local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__mayoresn local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER
