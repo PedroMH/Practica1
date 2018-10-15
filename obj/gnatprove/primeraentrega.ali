@@ -7,45 +7,47 @@ P GP FX
 
 RN
 RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U primeraentrega%b	primeraentrega.adb	906386e1 OO PK IL
+U primeraentrega%b	primeraentrega.adb	4ac1a7a5 OO PK IL
 
-U primeraentrega%s	primeraentrega.ads	3c9251bb OO PK IL
+U primeraentrega%s	primeraentrega.ads	c5727c44 OO PK IL
 
-D primeraentrega.ads	20181011112852 3c9251bb primeraentrega%s
-D primeraentrega.adb	20181011114636 acf1d75a primeraentrega%b
+D primeraentrega.ads	20181015172134 c5727c44 primeraentrega%s
+D primeraentrega.adb	20181015174836 8fb3dbe1 primeraentrega%b
 D system.ads		20180524051738 32a08138 system%s
 X 1 primeraentrega.ads
-1K9*primeraentrega 25l5 25e19 2|1b14 59l5 59t19
-3I9*My_Int<short_integer> 6r42 8r50 12r57 2|3r50 15r57 16r21
-4I9*Index<short_short_integer> 6r32
-6A9*My_Int_Array(3I9)<4I9> 8r32 12r36 17r37 21r35 2|3r32 15r36 33r37 45r35
-8V13*mayoresN{integer} 8>23 8>46 10r19 10r44 2|3b13 13l8 13t16
-8a23 vector{6A9} 9r18 2|3b23 6r16 6r30 7r13
-8i46 n{3I9} 2|3b46 7r25
-12V13*primoPequeno{3I9} 12>27 14r44 15r45 2|15b13 31l8 31t20
-12a27 vector{6A9} 13r30 14r28 14r67 15r29 15r67 2|15b27 18r16 18r30 19r22
+1K9*primeraentrega 24l5 24e19 2|1b14 60l5 60t19
+3I9*My_Int<short_integer> 5r53 7r50 11r57 2|3r50 15r57 16r21
+5A9*My_Int_Array(3I9)<integer> 7r32 11r36 16r37 20r35 2|3r32 15r36 33r37
+. 46r35
+7V13*mayoresN{integer} 7>23 7>46 9r19 9r44 2|3b13 13l8 13t16
+7a23 vector{5A9} 8r18 2|3b23 6r16 6r30 7r13
+7i46 n{3I9} 2|3b46 7r25
+11V13*primoPequeno{3I9} 11>27 13r44 14r45 2|15b13 31l8 31t20
+11a27 vector{5A9} 12r30 13r28 13r67 14r29 14r67 2|15b27 18r16 18r30 19r22
 . 20r13 21r33 22r34
-14i23 X<short_short_integer> 14r74
-15i24 X<short_short_integer> 15r74
-17V13*sumaContenido{integer} 17>28 19r66 2|33b13 41l11 41t24
-17a28 vector{6A9} 18r18 19r28 19r52 2|33b28 37r16 37r30 38r43
-19i23 X<short_short_integer> 19r59
-21V13*existePrimo{boolean} 13s18 21>26 2|45b13 57l8 57t19
-21a26 vector{6A9} 2|45b26 48r16 48r30 49r22 50r13
+13i23 X{integer} 13r74
+14i24 X{integer} 14r74
+16V13*sumaContenido{integer} 16>28 18r66 2|33b13 42l11 42t24
+16a28 vector{5A9} 17r18 18r28 18r52 2|33b28 37r16 37r30 38r43 39r46 39r72
+18i23 X{integer} 18r59
+20V13*existePrimo{boolean} 12s18 20>26 2|46b13 58l8 58t19
+20a26 vector{5A9} 2|46b26 49r16 49r30 50r22 51r13
 X 2 primeraentrega.adb
 4i10 mayores{integer} 8m16 8r27 12r14
-6i11 J<short_short_integer> 7r20
+6i11 J{integer} 7r20
 16i7 numeroPrimo{1|3I9} 21r19 22m19 29r14
-18i11 J<short_short_integer> 19r29 20r20 21r40 22r41
+18i11 J{integer} 19r29 20r20 21r40 22r41
 19i14 I<short_integer> 20r27
-34i7 resultado{integer} 38m10 38r23 40r14
-37i11 J<short_short_integer> 38r50
-48i11 J<short_short_integer> 49r29 50r20
-49i14 I<short_integer> 50r27
+34i7 resultado{integer} 38m10 38r23 39r84 41r14
+37i11 J{integer} 38r50 39r60
+39i41 X{integer} 39r79
+49i11 J{integer} 50r29 51r20
+50i14 I<short_integer> 51r27
 
 QQ SPARKVERSION 2018 (20180523)
 GG EK_DIRECT_CALLS primeraentrega__mayoresn 0

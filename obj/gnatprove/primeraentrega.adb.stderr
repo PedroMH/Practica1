@@ -1,5 +1,0 @@
-primeraentrega.adb:8:35: medium: overflow check might fail (e.g. when mayores = 2147483647)[#0]
-primeraentrega.adb:38:33: medium: overflow check might fail (e.g. when J = 0 and resultado = 2147483647 and vector = (others => 1))[#3]
-primeraentrega.ads:10:19: medium: postcondition might fail, cannot prove mayoresN'Result >= 0 (e.g. when mayoresN'Result = -1)[#4]
-primeraentrega.ads:14:14: medium: postcondition might fail (e.g. when primoPequeno'Result = 0 and vector = (others => 1))[#2]
-primeraentrega.ads:19:44: medium: postcondition might fail, cannot prove Integer(vector(X)) >= sumaContenido'result (e.g. when X = 0 and sumaContenido'Result = 1 and vector = (others => 0))[#1]
