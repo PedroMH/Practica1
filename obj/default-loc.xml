@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Users\Pedro\Desktop\Practica1\default.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\Pedro\Desktop\Practica1\default.gpr</vfs_project>
       <vfs_file>C:\Users\Pedro\Desktop\Practica1\src\primeraentrega.adb</vfs_file>

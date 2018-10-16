@@ -6,45 +6,47 @@ P ZX
 
 RN
 RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U primeraentrega%b	primeraentrega.adb	6983ab1e NE OO PK IL
+U primeraentrega%b	primeraentrega.adb	5278c538 NE OO PK IL
 Z interfaces%s		interfac.ads		interfac.ali
 
-U primeraentrega%s	primeraentrega.ads	c5727c44 EE NE OO PK IL
+U primeraentrega%s	primeraentrega.ads	4bbf1a03 EE NE OO PK IL
 
 D interfac.ads		20180524051736 5ab55268 interfaces%s
-D primeraentrega.ads	20181011115156 c5727c44 primeraentrega%s
-D primeraentrega.adb	20181011114636 acf1d75a primeraentrega%b
+D primeraentrega.ads	20181016183622 4bbf1a03 primeraentrega%s
+D primeraentrega.adb	20181016183622 19c7df3b primeraentrega%b
 D system.ads		20180524051738 32a08138 system%s
 X 2 primeraentrega.ads
-1K9*primeraentrega 24l5 24e19 3|1b14 59l5 59t19
-3I9*My_Int<short_integer> 5r53 7r50 11r57 3|3r50 15r57 16r21
-5A9*My_Int_Array(3I9)<integer> 7r32 11r36 16r37 20r35 3|3r32 15r36 33r37
-. 45r35
-7V13*mayoresN{integer} 7>23 7>46 9r19 9r44 3|3b13 13l8 13t16
-7a23 vector{5A9} 8r18 3|3b23 6r16 6r30 7r13
-7i46 n{3I9} 3|3b46 7r25
-11V13*primoPequeno{3I9} 11>27 13r44 14r45 3|15b13 31l8 31t20
-11a27 vector{5A9} 12r30 13r28 13r67 14r29 14r67 3|15b27 18r16 18r30 19r22
+1K9*primeraentrega 23l5 23e19 3|1b14 63l5 63t19
+3I9*Entero<short_integer> 4r55 6r52 10r59 3|3r52 15r59 16r21
+4A9*ArrayDeEnteros(3I9)<integer> 6r32 10r36 15r37 19r35 3|3r32 15r36 33r37
+. 47r35
+6V13*mayoresN{integer} 6>23 6>48 8r19 3|3b13 13l8 13t16
+6a23 vector{4A9} 7r18 3|3b23 6r16 6r30 7r13
+6i48 n{3I9} 3|3b48 7r25
+10V13*primoPequeno{3I9} 10>27 12r44 13r45 3|15b13 31l8 31t20
+10a27 vector{4A9} 11r30 12r28 12r67 13r29 13r67 3|15b27 18r16 18r30 19r22
 . 20r13 21r33 22r34
-13i23 X{integer} 13r74
-14i24 X{integer} 14r74
-16V13*sumaContenido{integer} 16>28 18r66 3|33b13 41l11 41t24
-16a28 vector{5A9} 17r18 18r28 18r52 3|33b28 37r16 37r30 38r43
-18i23 X{integer} 18r59
-20V13*existePrimo{boolean} 12s18 20>26 3|45b13 57l8 57t19
-20a26 vector{5A9} 3|45b26 48r16 48r30 49r22 50r13
+12i23 X{integer} 12r74
+13i24 X{integer} 13r74
+15V13*sumaContenido{integer} 15>28 17r66 3|33b13 43l11 43t24
+15a28 vector{4A9} 16r18 17r28 17r52 3|33b28 37r16 37r30 38r43 39r46 39r72
+17i23 X{integer} 17r59
+19V13*existePrimo{boolean} 11s18 19>26 3|47b13 61l8 61t19
+19a26 vector{4A9} 3|47b26 50r16 50r30 51r22 52r15
 X 3 primeraentrega.adb
 4i10 mayores{integer} 8m16 8r27 12r14
 6i11 J{integer} 7r20
 16i7 numeroPrimo{2|3I9} 21r19 22m19 29r14
 18i11 J{integer} 19r29 20r20 21r40 22r41
 19i14 I<short_integer> 20r27
-34i7 resultado{integer} 38m10 38r23 40r14
-37i11 J{integer} 38r50
-48i11 J{integer} 49r29 50r20
-49i14 I<short_integer> 50r27
+34i7 resultado{integer} 38m10 38r23 39r84 42r14
+37i11 J{integer} 38r50 39r60
+39i41 X{integer} 39r79
+50i11 J{integer} 51r29 52r22
+51i14 I<short_integer> 52r29
 

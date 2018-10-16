@@ -239,12 +239,12 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\usuario\Desktop\Nueva carpeta\obj\assertions.o
-   --   C:\Users\usuario\Desktop\Nueva carpeta\obj\primeraentrega.o
-   --   C:\Users\usuario\Desktop\Nueva carpeta\obj\test_primeraentrega.o
-   --   C:\Users\usuario\Desktop\Nueva carpeta\obj\run_test.o
-   --   -LC:\Users\usuario\Desktop\Nueva carpeta\obj\
-   --   -LC:\Users\usuario\Desktop\Nueva carpeta\obj\
+   --   C:\Users\Pedro\Desktop\Practica1\obj\assertions.o
+   --   C:\Users\Pedro\Desktop\Practica1\obj\primeraentrega.o
+   --   C:\Users\Pedro\Desktop\Practica1\obj\test_primeraentrega.o
+   --   C:\Users\Pedro\Desktop\Practica1\obj\run_test.o
+   --   -LC:\Users\Pedro\Desktop\Practica1\obj\
+   --   -LC:\Users\Pedro\Desktop\Practica1\obj\
    --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat

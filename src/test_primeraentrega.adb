@@ -6,8 +6,8 @@ procedure test_primeraentrega is
 
    procedure Test_1 is
       Msg   : constant String := "Test_1: mayoresN";
-      Table : My_Int_Array (1..5) := (5, 4, 3, 2, 1);
-      N : My_Int := 3;
+      Table : ArrayDeEnteros (1..5) := (5, 4, 3, 2, 1);
+      N : Entero := 3;
    begin
       Assert_True (mayoresN (Table, N) = 2, Msg);
       Assert_True (mayoresN (Table, 0) = 5, Msg);
@@ -43,7 +43,7 @@ procedure test_primeraentrega is
 
    procedure Test_3 is
       Msg   : constant String := "Test_3: primoPequeno";
-      Table : My_Int_Array (1..7) := (3, 4, 3, 2, 1, 0, 8);
+      Table : ArrayDeEnteros (1..7) := (3, 4, 3, 2, 1, 0, 8);
    begin
       Assert_True (primoPequeno (Table) = 1, Msg);
    exception
@@ -55,10 +55,10 @@ procedure test_primeraentrega is
    
    procedure Test_4 is
       Msg   : constant String := "Test_4: existePrimo";
-      Table : My_Int_Array (1..7) := (3, 4, 3, 2, 1, 0, 8);
-      Table2 : My_Int_Array (1..7) := (6, 4, 8, 2, 4, 0, 8);
-      Table3 : My_Int_Array (1..4) := (0, 0, 0, 0);
-      Table4 : My_Int_Array (1..3) := (6, 4, 1);
+      Table : ArrayDeEnteros (1..7) := (3, 4, 3, 2, 1, 0, 8);
+      Table2 : ArrayDeEnteros (1..7) := (6, 4, 8, 2, 4, 0, 8);
+      Table3 : ArrayDeEnteros (1..4) := (0, 0, 0, 0);
+      Table4 : ArrayDeEnteros (1..3) := (6, 4, 1);
       --Arrays de tamaño 1???????
       --Table5 : My_Int_Array (1) := (6); 
       --Table6 : My_Int_Array (1..1) := (1);

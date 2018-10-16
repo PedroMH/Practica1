@@ -1,20 +1,20 @@
 [GENERATED OBJECT FILE]
 b__run_test.o
 [PROJECT FILES]
-C:\Users\usuario\Desktop\Nueva carpeta\default.gpr
+C:\Users\Pedro\Desktop\Practica1\default.gpr
 20181011113904
 [BOUND OBJECT FILES]
-C:\Users\usuario\Desktop\Nueva carpeta\obj\assertions.o
-C:\Users\usuario\Desktop\Nueva carpeta\obj\primeraentrega.o
-C:\Users\usuario\Desktop\Nueva carpeta\obj\test_primeraentrega.o
-C:\Users\usuario\Desktop\Nueva carpeta\obj\run_test.o
+C:\Users\Pedro\Desktop\Practica1\obj\assertions.o
+C:\Users\Pedro\Desktop\Practica1\obj\primeraentrega.o
+C:\Users\Pedro\Desktop\Practica1\obj\test_primeraentrega.o
+C:\Users\Pedro\Desktop\Practica1\obj\run_test.o
 [GENERATED SOURCE FILES]
 b__run_test.ads
 b__run_test.adb
 b__run_test.ali
 [RESULTING OPTIONS]
--LC:\Users\usuario\Desktop\Nueva carpeta\obj\
--LC:\Users\usuario\Desktop\Nueva carpeta\obj\
+-LC:\Users\Pedro\Desktop\Practica1\obj\
+-LC:\Users\Pedro\Desktop\Practica1\obj\
 -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
 -static
 -static-libgcc

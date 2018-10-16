@@ -38,6 +38,7 @@ package body primeraentrega with SPARK_Mode is
          resultado := resultado + Integer(vector(J));
          pragma Loop_Invariant (for all X in vector'First..J =>Integer(vector(X))<=resultado);
          --hace falta un cast para compararlos
+         
       end loop;
       return resultado;
       end sumaContenido;
