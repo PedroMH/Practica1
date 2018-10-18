@@ -12,7 +12,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U test_primeraentrega%b	test_primeraentrega.adb	65abdeea NE OO SU IL
+U test_primeraentrega%b	test_primeraentrega.adb	2def2308 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -26,10 +26,10 @@ D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
 D a-tags.ads		20180524051738 491b781d ada.tags%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
 D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
-D assertions.ads	20181011114348 0573aace assertions%s
+D assertions.ads	20181018103808 0573aace assertions%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D primeraentrega.ads	20181016183622 4bbf1a03 primeraentrega%s
+D primeraentrega.ads	20181018141014 5b3e282e primeraentrega%s
 D system.ads		20180524051738 32a08138 system%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
@@ -43,37 +43,49 @@ D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
-D test_primeraentrega.adb  20181016183622 a37add7d test_primeraentrega%b
+D test_primeraentrega.adb  20181018150522 fbbf12b2 test_primeraentrega%b
 X 1 ada.ads
 16K9*Ada 20e8 25|1r6 1r23
 X 6 a-textio.ads
 49K13*Text_IO 471e16 25|1w10 1r27
-263U14*Put_Line 25|16s10 18s10 51s10 53s10 75s10 77s10 84s4
+263U14*Put_Line 25|16s10 18s10 29s10 31s10 44s10 46s10 59s10 61s10 72s10
+. 74s10 81s4
 X 8 assertions.ads
 1K9*Assertions 15e15 25|2w6 2r23
-2X4*Assertion_Error 25|15r12 50r12 74r12
-10U14*Assert_True 25|12s7 13s7 48s7 67s7 70s7
-13U14*Assert_False 25|68s7 69s7
+2X4*Assertion_Error 25|15r12 28r12 43r12 58r12 71r12
+10U14*Assert_True 25|12s7 13s7 26s7 41s7 56s7 69s7
 X 11 primeraentrega.ads
-1K9*primeraentrega 23e19 25|3w6 3r31
-3I9*Entero<short_integer> 25|10r11
-4A9*ArrayDeEnteros(3I9)<integer> 25|9r15 46r15 58r15 59r16 60r16 61r16
-6V13*mayoresN{integer} 25|12s20 13s20
-10V13*primoPequeno{3I9} 25|48s20
-19V13*existePrimo{boolean} 25|67s20 68s21 69s21 70s20
+1K9*primeraentrega 31e19 25|3w6 3r31
+4I12*Entero{integer} 25|10r11 13r37 24r11 38r11 53r11
+5A9*ArrayDeEnteros(4I12)<integer> 25|9r15 23r15 36r15 37r18 51r15 52r18 66r15
+. 67r16
+7V13*mayoresN{integer} 25|12s20 13s20
+11V13*sumaContenido{natural} 25|26s20
+18U14*multArray 25|40s7
+22U14*restaArray 25|55s7
+26V13*encuentraCoincidencia{boolean} 25|69s20
 X 25 test_primeraentrega.adb
-5U11*test_primeraentrega 5b11 89l8 89t27
-7U14 Test_1 7b14 19l8 19t14 85s4
-8a7 Msg{string} 12r45 13r45 16r20 18r20
-9a7 Table{11|4A9} 12r30 13r30
-10i7 N{11|3I9} 12r37
-44U14 Test_3 44b14 54l8 54t14 87s4
-45a7 Msg{string} 48r46 51r20 53r20
-46a7 Table{11|4A9} 48r34
-56U14 Test_4 56b14 78l8 78t14 88s4
-57a7 Msg{string} 67r40 68r41 69r41 70r41 75r20 77r20
-58a7 Table{11|4A9} 67r32
-59a7 Table2{11|4A9} 68r33
-60a7 Table3{11|4A9} 69r33
-61a7 Table4{11|4A9} 70r32
+5U11*test_primeraentrega 5b11 87l8 87t27
+7U14 Test_1 7b14 19l8 19t14 82s4
+8a7 Msg{string} 12r45 13r51 16r20 18r20
+9a7 Table{11|5A9} 12r30 13r30
+10i7 N{11|4I12} 12r37
+21U14 Test_2 21b14 32l8 32t14 83s4
+22a7 Msg{string} 26r48 29r20 31r20
+23a7 Table{11|5A9} 26r35
+24i7 N{11|4I12}
+34U14 Test_3 34b14 47l8 47t14 84s4
+35a7 Msg{string} 41r38 44r20 46r20
+36a7 Table{11|5A9} 40m18 40r18 41r20
+37a7 TableRes{11|5A9} 41r28
+38i7 N{11|4I12} 40r25
+49U14 Test_4 49b14 62l8 62t14 85s4
+50a7 Msg{string} 56r38 59r20 61r20
+51a7 Table{11|5A9} 55m19 55r19 56r20
+52a7 TableRes{11|5A9} 56r28
+53i7 N{11|4I12} 55r26
+64U14 Test_5 64b14 75l8 75t14 86s4
+65a7 Msg{string} 69r59 72r20 74r20
+66a7 Table{11|5A9} 69r43
+67a7 Table2{11|5A9} 69r50
 

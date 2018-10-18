@@ -14,7 +14,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
 
-U test_primeraentrega%b	test_primeraentrega.adb	115fc6a9 OO SU IL
+U test_primeraentrega%b	test_primeraentrega.adb	2def2308 OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W assertions%s		assertions.adb		assertions.ali
@@ -25,56 +25,72 @@ D ada.ads		20180524051736 76789da1 ada%s
 D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
 D a-textio.ads		20180524051738 881db35a ada.text_io%s
-D assertions.ads	20181011114348 0573aace assertions%s
+D assertions.ads	20181018103808 0573aace assertions%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
-D primeraentrega.ads	20181015172134 c5727c44 primeraentrega%s
+D primeraentrega.ads	20181018141014 5b3e282e primeraentrega%s
 D system.ads		20180524051738 32a08138 system%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
 D s-parame.ads		20180524051738 48ec542b system.parameters%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
-D test_primeraentrega.adb  20181015174216 5943a379 test_primeraentrega%b
+D test_primeraentrega.adb  20181018150522 fbbf12b2 test_primeraentrega%b
 X 1 ada.ads
 16K9*Ada 20e8 14|1r6 1r23
 X 4 a-textio.ads
 49K13*Text_IO 471e16 14|1w10 1r27
-263U14*Put_Line 14|16s10 18s10 51s10 53s10 75s10 77s10 84s4
+263U14*Put_Line 14|16s10 18s10 29s10 31s10 44s10 46s10 59s10 61s10 72s10
+. 74s10 81s4
 X 5 assertions.ads
 1K9*Assertions 15e15 14|2w6 2r23
-2X4*Assertion_Error 14|15r12 50r12 74r12
-10U14*Assert_True 14|12s7 13s7 48s7 67s7 70s7
-13U14*Assert_False 14|68s7 69s7
+2X4*Assertion_Error 14|15r12 28r12 43r12 58r12 71r12
+10U14*Assert_True 14|12s7 13s7 26s7 41s7 56s7 69s7
 X 8 primeraentrega.ads
-1K9*primeraentrega 24e19 14|3w6 3r31
-3I9*My_Int<short_integer> 14|10r11
-5A9*My_Int_Array(3I9)<integer> 14|9r15 46r15 58r15 59r16 60r16 61r16
+1K9*primeraentrega 31e19 14|3w6 3r31
+4I12*Entero{integer} 14|10r11 13r37 24r11 38r11 53r11
+5A9*ArrayDeEnteros(4I12)<integer> 14|9r15 23r15 36r15 37r18 51r15 52r18 66r15
+. 67r16
 7V13*mayoresN{integer} 14|12s20 13s20
-11V13*primoPequeno{3I9} 14|48s20
-20V13*existePrimo{boolean} 14|67s20 68s21 69s21 70s20
+11V13*sumaContenido{natural} 14|26s20
+18U14*multArray 14|40s7
+22U14*restaArray 14|55s7
+26V13*encuentraCoincidencia{boolean} 14|69s20
 X 14 test_primeraentrega.adb
-5U11*test_primeraentrega 5b11 89l8 89t27
-7U14 Test_1 19l8 19t14 85s4
-8a7 Msg{string} 12r45 13r45 16r20 18r20
+5U11*test_primeraentrega 5b11 87l8 87t27
+7U14 Test_1 19l8 19t14 82s4
+8a7 Msg{string} 12r45 13r51 16r20 18r20
 9a7 Table{8|5A9} 12r30 13r30
-10i7 N{8|3I9} 12r37
-44U14 Test_3 54l8 54t14 87s4
-45a7 Msg{string} 48r46 51r20 53r20
-46a7 Table{8|5A9} 48r34
-56U14 Test_4 78l8 78t14 88s4
-57a7 Msg{string} 67r40 68r41 69r41 70r41 75r20 77r20
-58a7 Table{8|5A9} 67r32
-59a7 Table2{8|5A9} 68r33
-60a7 Table3{8|5A9} 69r33
-61a7 Table4{8|5A9} 70r32
+10i7 N{8|4I12} 12r37
+21U14 Test_2 32l8 32t14 83s4
+22a7 Msg{string} 26r48 29r20 31r20
+23a7 Table{8|5A9} 26r35
+24i7 N{8|4I12}
+34U14 Test_3 47l8 47t14 84s4
+35a7 Msg{string} 41r38 44r20 46r20
+36a7 Table{8|5A9} 40m18 40r18 41r20
+37a7 TableRes{8|5A9} 41r28
+38i7 N{8|4I12} 40r25
+49U14 Test_4 62l8 62t14 85s4
+50a7 Msg{string} 56r38 59r20 61r20
+51a7 Table{8|5A9} 55m19 55r19 56r20
+52a7 TableRes{8|5A9} 56r28
+53i7 N{8|4I12} 55r26
+64U14 Test_5 75l8 75t14 86s4
+65a7 Msg{string} 69r59 72r20 74r20
+66a7 Table{8|5A9} 69r43
+67a7 Table2{8|5A9} 69r50
 
 QQ SPARKVERSION 2018 (20180523)
 GG EK_DIRECT_CALLS test_primeraentrega__test_1 0
 GG EK_GLOBALS test_primeraentrega__test_1 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__mayoresn local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_primeraentrega__test_2 0
+GG EK_GLOBALS test_primeraentrega__test_2 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__sumacontenido local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
 GG EK_DIRECT_CALLS test_primeraentrega__test_3 0
-GG EK_GLOBALS test_primeraentrega__test_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__primopequeno local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_GLOBALS test_primeraentrega__test_3 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__multarray local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
 GG EK_DIRECT_CALLS test_primeraentrega__test_4 0
-GG EK_GLOBALS test_primeraentrega__test_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 4 ada__text_io__put_line__2 assertions__assert_true__2 assertions__assert_false__2 primeraentrega__existeprimo local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_GLOBALS test_primeraentrega__test_4 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__restaarray local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS test_primeraentrega__test_5 0
+GG EK_GLOBALS test_primeraentrega__test_5 local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 3 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__encuentracoincidencia local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
 GG EK_DIRECT_CALLS test_primeraentrega 0
-GG EK_GLOBALS test_primeraentrega local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 6 ada__text_io__put_line__2 assertions__assert_true__2 assertions__assert_false__2 primeraentrega__mayoresn primeraentrega__primopequeno primeraentrega__existeprimo local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_GLOBALS test_primeraentrega local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 7 ada__text_io__put_line__2 assertions__assert_true__2 primeraentrega__mayoresn primeraentrega__sumacontenido primeraentrega__multarray primeraentrega__restaarray primeraentrega__encuentracoincidencia local_var 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
 GG EK_END_MARKER
